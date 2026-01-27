@@ -131,8 +131,8 @@ paginate: 10
 
 # Gitment comments
 #gitment:
-#  username: "qingchen177"
-#  repo: "qingchen177.github.io"
+#  username: "li-qingchen"
+#  repo: "li-qingchen.github.io"
 #  client_id: "Ov23li09snksh5hkWm4c"
 #  client_secret: "e2d3a610f867cf9eb601c4ed4764de84c5a42dca"
 #  redirect_uri: "https://www.liqingchen.com"   # If you use a custom domain name
