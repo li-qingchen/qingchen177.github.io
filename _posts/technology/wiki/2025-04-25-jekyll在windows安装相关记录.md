@@ -15,8 +15,8 @@ gem -v
 
 # 快速起一个jekyll网页
 gem install bundler jekyll
-jekyll new jekyll-demo
-cd jekyll-demo
+jekyll new learn-jekyll
+cd learn-jekyll
 bundle exec jekyll serve
 ```
 ### gem install 缓慢
