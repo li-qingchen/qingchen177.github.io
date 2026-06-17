@@ -187,11 +187,29 @@ jekyll-spaceship:
   # default enabled processors
   processors:
     - table-processor
+    - mathjax-processor
     - plantuml-processor
     - mermaid-processor
     - media-processor
     - emoji-processor
     - element-processor
+  mathjax-processor:
+    src:
+      - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
+    config:
+      tex:
+        inlineMath:
+          - [ '$','$' ]
+          - [ '\(','\)' ]
+        displayMath:
+          - [ '$$','$$' ]
+          - [ '\[','\]' ]
+      chtml:
+        fontCache: 'global'
+    optimize:
+      enabled: true
+      include: [ ]
+      exclude: [ ]
 #  plantuml-processor:
 #    mode: default  # mode value 'pre-fetch' for fetching image at building stage
 #    css:
